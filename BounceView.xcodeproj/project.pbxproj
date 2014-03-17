@@ -21,6 +21,7 @@
 		40D09A9518D6DF9D00293F9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D09A7718D6DF9D00293F9C /* UIKit.framework */; };
 		40D09A9D18D6DF9D00293F9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40D09A9B18D6DF9D00293F9C /* InfoPlist.strings */; };
 		40D09A9F18D6DF9D00293F9C /* BounceViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D09A9E18D6DF9D00293F9C /* BounceViewTests.m */; };
+		40D09AA918D6DFC500293F9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D09AA818D6DFC500293F9C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		40D09A9A18D6DF9D00293F9C /* BounceViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BounceViewTests-Info.plist"; sourceTree = "<group>"; };
 		40D09A9C18D6DF9D00293F9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40D09A9E18D6DF9D00293F9C /* BounceViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BounceViewTests.m; sourceTree = "<group>"; };
+		40D09AA818D6DFC500293F9C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D09AA918D6DFC500293F9C /* QuartzCore.framework in Frameworks */,
 				40D09A7618D6DF9D00293F9C /* CoreGraphics.framework in Frameworks */,
 				40D09A7818D6DF9D00293F9C /* UIKit.framework in Frameworks */,
 				40D09A7418D6DF9D00293F9C /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		40D09A7218D6DF9D00293F9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40D09AA818D6DFC500293F9C /* QuartzCore.framework */,
 				40D09A7318D6DF9D00293F9C /* Foundation.framework */,
 				40D09A7518D6DF9D00293F9C /* CoreGraphics.framework */,
 				40D09A7718D6DF9D00293F9C /* UIKit.framework */,
